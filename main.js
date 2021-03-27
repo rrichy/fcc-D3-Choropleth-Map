@@ -107,6 +107,6 @@ Promise.all([EDUCATION_DATA, COUNTY_DATA]).then(([education, topology]) => {
         });
 
     wrapper.append('p')
-        .html('Source: <a href=\"https://www.ers.usda.gov/data-products/county-level-data-sets/download-data.aspx\">USDA Economic Research Service</a>')
+        .html('Source: <a href=\"https://www.ers.usda.gov/data-products/county-level-data-sets/download-data.aspx\">USDA Economic Research Service</a>');
 });
 
